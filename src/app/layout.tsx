@@ -16,16 +16,19 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Xeven Solutions",
-  description: "Create a clean, conversion-focused single-page SaaS landing with a clear hero, product overview, simple buying flow, key metrics, and a footer.",
+  description: "Plan a clean, conversion-focused single-page SaaS landing with a simple navbar and 5 base sections (Hero, About, How to Buy, Tokenomics, Footer).",
 };
 
 export default function RootLayout({
   children,
-}: { children: React.ReactNode; }) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
       <body
-        className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}>
+        className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}
+      >
         {children}
       
         {/* Visual Editor Script - Only runs in iframe */}
