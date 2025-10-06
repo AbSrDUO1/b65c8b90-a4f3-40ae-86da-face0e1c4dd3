@@ -68,7 +68,7 @@ export default function Home() {
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterLogo 
           logoSrc="/images/logo.svg"
-          logoAlt="Logo"
+          logoAlt="Xeven Solutions"
           logoText="Xeven Solutions"
           columns={[
             { title: "Company", items: [{ label: "About Us", onClick: () => { /* About Click */ } }, { label: "Contact", onClick: () => { /* Contact Click */ } }, { label: "Careers", onClick: () => { /* Careers Click */ } }] },
