@@ -16,7 +16,7 @@ export default function Home() {
         <NavbarStyleMinimal
           logoSrc="/images/logo.svg"
           logoAlt="Xeven Solutions"
-          buttonText="Get a demo"
+          buttonText="Get Started"
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
