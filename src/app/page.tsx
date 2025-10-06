@@ -20,7 +20,7 @@ export default function Home() {
         />
       </div>
 
-      <div id="hero" data-section="hero" className="scroll-mt-24">
+      <div id="hero" data-section="hero">
         <SplitHero 
           title="Welcome to Xeven Solutions"
           subtitle="Your Partner in Innovative Solutions"
@@ -31,7 +31,7 @@ export default function Home() {
         />
       </div>
 
-      <div id="about" data-section="about" className="scroll-mt-24">
+      <div id="about" data-section="about">
         <SocialsAbout 
           title="About Us"
           descriptions={[
@@ -42,7 +42,7 @@ export default function Home() {
         />
       </div>
 
-      <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
+      <div id="how-to-buy" data-section="how-to-buy">
         <HowToBuy3D 
           title="How to Buy Our Products"
           steps={[
@@ -53,7 +53,7 @@ export default function Home() {
         />
       </div>
 
-      <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
+      <div id="tokenomics" data-section="tokenomics">
         <NumberGridTokenomics 
           title="Our Tokenomics"
           description="Check out our economic model and distribution strategy."
@@ -65,7 +65,7 @@ export default function Home() {
         />
       </div>
 
-      <div id="footer" data-section="footer" className="scroll-mt-24">
+      <div id="footer" data-section="footer">
         <FooterLogo 
           logoSrc="/images/logo.svg"
           logoAlt="Xeven Solutions"
